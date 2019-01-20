@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set "VIRTUAL_ENV=C:\Users\Jack\Documents\code\nodestuff\lunch-bot\venv"
+set "VIRTUAL_ENV=C:\Users\jackf\Documents\code\node\lunchBot\venv"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"

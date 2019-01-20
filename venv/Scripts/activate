@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Jack\Documents\code\nodestuff\lunch-bot\venv"
+VIRTUAL_ENV="C:\Users\jackf\Documents\code\node\lunchBot\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

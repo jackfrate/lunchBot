@@ -1,7 +1,7 @@
 from flask import Flask
+from assets.lunch_manager import LunchManager
 app = Flask(__name__)
 
-from assets.lunch_manager import LunchManager
 
 lunch_manager = LunchManager()
 

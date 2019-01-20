@@ -4,7 +4,6 @@ class that manages lunches
 
 
 import random
-from location_finder import LocationFinder
 
 
 class LunchManager:
@@ -13,8 +12,15 @@ class LunchManager:
     x_cord = 0
     y_cord = 0
 
-    def __init__(self):
-        self.location_finder = LocationFinder(self.x_cord, self.y_cord)
-
     def choose_lunch(self):
-        return self.location_finder.get_location()
+        locs = [
+            "Wendy's",
+            "McDonald's",
+            "Chipotle",
+            "Pi Craft",
+            "Smash Burger",
+            "Amiel's",
+            "starve"
+        ]
+
+        return locs[random.randint(0, len(locs) - 1)]
