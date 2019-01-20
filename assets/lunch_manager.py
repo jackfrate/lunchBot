@@ -8,19 +8,15 @@ import random
 
 class LunchManager:
 
-    # coordinates for the workplace
-    x_cord = 0
-    y_cord = 0
+    locations = [
+        "Wendy's",
+        "McDonald's",
+        "Chipotle",
+        "Pi Craft",
+        "Smash Burger",
+        "Amiel's",
+        "starve"
+    ]
 
     def choose_lunch(self):
-        locs = [
-            "Wendy's",
-            "McDonald's",
-            "Chipotle",
-            "Pi Craft",
-            "Smash Burger",
-            "Amiel's",
-            "starve"
-        ]
-
-        return locs[random.randint(0, len(locs) - 1)]
+        return self.locations[random.randint(0, len(self.locations) - 1)]
