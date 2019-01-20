@@ -1,0 +1,9 @@
+
+
+run to get into a virtual env
+. venv/bin/activate        for linux
+venv\Scripts\activate
+
+
+to run the server
+py -m flask run
