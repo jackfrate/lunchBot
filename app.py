@@ -20,6 +20,7 @@ def choose_lunch():
 @app.route('lunch/add', method='POST')
 def add_location():
     # TODO: make it so people can add locations
+    # have to identify what part of the request/response we need for input
     pass
 
 
