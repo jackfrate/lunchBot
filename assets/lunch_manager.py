@@ -17,4 +17,4 @@ class LunchManager:
         self.location_finder = LocationFinder(self.x_cord, self.y_cord)
 
     def choose_lunch(self):
-        return self.location_finder.get_location
+        return self.location_finder.get_location()
